@@ -61,7 +61,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Game specific colors
+				road: 'hsl(var(--road))',
+				'road-lines': 'hsl(var(--road-lines))',
+				dashboard: 'hsl(var(--dashboard))',
+				'speed-green': 'hsl(var(--speed-green))',
+				'danger-red': 'hsl(var(--danger-red))',
+				'warning-yellow': 'hsl(var(--warning-yellow))'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-road': 'var(--gradient-road)',
+				'gradient-dashboard': 'var(--gradient-dashboard)'
+			},
+			boxShadow: {
+				'car': 'var(--shadow-car)',
+				'glow': 'var(--shadow-glow)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
